@@ -1,1 +1,12 @@
-{}
+{
+ "history": [],
+ "pending": [],
+ "pots_wei": {
+  "burn": 0,
+  "daily": 0,
+  "monthly": 0,
+  "weekly": 0
+ },
+ "settled": {},
+ "signers": {}
+}
