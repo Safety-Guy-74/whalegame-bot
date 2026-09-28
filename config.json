@@ -1,0 +1,42 @@
+{
+  "_readme": "Edit the values below. Addresses are filled in after launch. Anything starting with 0xPASTE must be replaced.",
+
+  "token": "0xPASTE_WHALEGAME_TOKEN_ADDRESS",
+  "markets": [
+    "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "0xPASTE_PONS_CURVE_OR_LOCKER_ADDRESS"
+  ],
+  "excluded_wallets": [
+    "0xPASTE_YOUR_PERSONAL_WALLET",
+    "0xPASTE_AGENT_VAULT_1",
+    "0xPASTE_AGENT_OPERATOR_1"
+  ],
+
+  "launch_date_utc": "2026-09-29",
+  "day_close_utc": "10:00",
+  "hold_hours": 25,
+  "min_net_buy_usd": 100,
+  "min_net_buy_tokens_if_no_price": 0,
+  "top_candidates": 10,
+
+  "pot_split": {"burn": 0.25, "daily": 0.25, "weekly": 0.25, "monthly": 0.25},
+
+  "dry_run": true,
+  "paused": false,
+  "auto_pay_daily": true,
+  "auto_pay_weekly": false,
+  "auto_pay_monthly": false,
+  "max_payout_eth": 0.5,
+  "gas_reserve_eth": 0.003,
+
+  "post_hourly_leaderboard": true,
+  "burn_executor_wallet": "0xPASTE_WALLET_THAT_DOES_BUYBACKS",
+  "bundle_contract": "0xPASTE_MOSH_BUNDLE_CONTRACT",
+  "auto_collect_fees": true,
+  "collect_every_hours": 24,
+
+  "robinscan_api": "https://robinscan.io/api",
+  "rpc_url": "https://rpc.mainnet.chain.robinhood.com",
+  "chain_id": 4663,
+  "explorer_tx_url": "https://robinscan.io/tx/"
+}
